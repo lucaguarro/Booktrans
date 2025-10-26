@@ -1,0 +1,16 @@
+name: booktrans
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pillow
+  - svgwrite
+  - opencv
+  - pip
+  - pip:
+    - transformers
+    - sentencepiece
+    - layoutparser
+    - protobuf
+    - svgwrite
